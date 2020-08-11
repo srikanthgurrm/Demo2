@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Global Variable</h1>
+	
+	<script>
+		 function createUserName() {
+				userName = "Bill";
+			};
+
+		function modifyUserName() {
+				if(userName)
+					userName = "Steve";
+			};
+
+		function showUserName() {
+				alert(userName);  
+			};
+    
+		createUserName();
+		showUserName(); // Bill 
+
+		modifyUserName();
+		showUserName(); // Steve 
+
+    </script>
+</body>
+</html>
