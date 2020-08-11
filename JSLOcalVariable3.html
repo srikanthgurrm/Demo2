@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>LOCAL Variable </h1>
+<p id="p1"></p>
+	
+<script>
+var name = "hellow";
+
+function abc(){
+window.value = 9999;
+alert (window.value);
+document.getElementById("p1").innerHTML = "to all a big " +name ;
+}
+function def(){
+var data = "Local Variable";
+alert("This file represents "+data);
+document.writeln("The value is " +data);
+}
+
+abc();
+def();
+ </script>
+</body>
+</html>
